@@ -4,34 +4,38 @@
 .container h1 {
   font-family: "Roboto";
   font-weight: 100;
-  font-size: 9rem;
+  font-size: 9em;
   color: #ffffff; }
 
 .container h2 {
   font-family: "Roboto";
   font-weight: 100;
-  font-size: 3rem;
+  font-size: 3em;
   color: #ffffff; }
 
 .container h3 {
   font-family: "Roboto";
-  font-size: 2rem !important;
-  font-weight: 100;
+  font-size: 2em;
+  font-weight: 400;
   margin-bottom: 1em; }
+
+.container .highlight {
+  color: #1ab1c1;
+  font-weight: 900; }
 
 .container h4 {
   font-weight: 500;
   text-transform: uppercase;
-  line-height: 3rem; }
+  line-height: 3em; }
 
 .container h5 {
   text-align: center;
-  line-height: 4rem;
+  line-height: 4em;
   font-weight: 300; }
 
 .container p {
   font-family: "Lato", sans-serif;
-  font-weight: 100; }
+  font-weight: 300; }
 
 .container a {
   text-decoration: none;
@@ -43,34 +47,38 @@
 .container h1 {
   font-family: "Roboto";
   font-weight: 100;
-  font-size: 9rem;
+  font-size: 9em;
   color: #ffffff; }
 
 .container h2 {
   font-family: "Roboto";
   font-weight: 100;
-  font-size: 3rem;
+  font-size: 3em;
   color: #ffffff; }
 
 .container h3 {
   font-family: "Roboto";
-  font-size: 2rem !important;
-  font-weight: 100;
+  font-size: 2em;
+  font-weight: 400;
   margin-bottom: 1em; }
+
+.container .highlight {
+  color: #1ab1c1;
+  font-weight: 900; }
 
 .container h4 {
   font-weight: 500;
   text-transform: uppercase;
-  line-height: 3rem; }
+  line-height: 3em; }
 
 .container h5 {
   text-align: center;
-  line-height: 4rem;
+  line-height: 4em;
   font-weight: 300; }
 
 .container p {
   font-family: "Lato", sans-serif;
-  font-weight: 100; }
+  font-weight: 300; }
 
 .container a {
   text-decoration: none;
@@ -81,14 +89,15 @@ header {
   width: 100vw;
   height: 800px;
   background-color: grey;
-  background-image: url(../img/annie-spratt-277548.jpg);
+  background-image: url(../img/kc-luk-188412.jpg);
   background-size: cover;
+  background-position: center;
   display: table-cell;
   vertical-align: middle; }
   header #header-text {
     display: inline-block; }
   header h1 #surname {
-    color: #b31bbf;
+    color: #1ab1c1;
     font-weight: 500; }
 
 * {
@@ -97,34 +106,38 @@ header {
 .container h1 {
   font-family: "Roboto";
   font-weight: 100;
-  font-size: 9rem;
+  font-size: 9em;
   color: #ffffff; }
 
 .container h2 {
   font-family: "Roboto";
   font-weight: 100;
-  font-size: 3rem;
+  font-size: 3em;
   color: #ffffff; }
 
 .container h3 {
   font-family: "Roboto";
-  font-size: 2rem !important;
-  font-weight: 100;
+  font-size: 2em;
+  font-weight: 400;
   margin-bottom: 1em; }
+
+.container .highlight {
+  color: #1ab1c1;
+  font-weight: 900; }
 
 .container h4 {
   font-weight: 500;
   text-transform: uppercase;
-  line-height: 3rem; }
+  line-height: 3em; }
 
 .container h5 {
   text-align: center;
-  line-height: 4rem;
+  line-height: 4em;
   font-weight: 300; }
 
 .container p {
   font-family: "Lato", sans-serif;
-  font-weight: 100; }
+  font-weight: 300; }
 
 .container a {
   text-decoration: none;
@@ -137,11 +150,65 @@ header {
     float: right; }
     .navbar-default .navbar-nav li > a {
       color: #ffffff;
-      padding-bottom: 21px; }
+      padding-bottom: 21px;
+      border-bottom: 3px solid transparent; }
       .navbar-default .navbar-nav li > a:hover {
         color: #ffffff;
-        border-bottom: 3px solid #b31bbf;
+        border-bottom: 3px solid #1ab1c1;
         padding-bottom: 21px; }
 
 nav .toggle, #drop {
   display: none; }
+
+* {
+  box-sizing: border-box; }
+
+.container h1 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 9em;
+  color: #ffffff; }
+
+.container h2 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 3em;
+  color: #ffffff; }
+
+.container h3 {
+  font-family: "Roboto";
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 1em; }
+
+.container .highlight {
+  color: #1ab1c1;
+  font-weight: 900; }
+
+.container h4 {
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 3em; }
+
+.container h5 {
+  text-align: center;
+  line-height: 4em;
+  font-weight: 300; }
+
+.container p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
+
+.container a {
+  text-decoration: none;
+  color: #ffffff; }
+
+#about-picture {
+  background-image: url(../img/zuza.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #1ab1c1;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 1em; }
