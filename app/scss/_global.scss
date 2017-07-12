@@ -4,7 +4,7 @@
 
 @import "color";
 
-.container {
+.container, .container-fluid {
     h1 {
         font-family: "Roboto";
         font-weight: 100;
@@ -47,4 +47,8 @@
         text-decoration: none;
         color: $white;
     }
+}
+
+section {
+    margin: 2em 0 2em 0;
 }
