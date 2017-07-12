@@ -1,0 +1,23 @@
+@import "global";
+@import "color";
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    .navbar-nav {
+        float: right;
+        li>a {
+            color: $white;
+            padding-bottom: 21px;
+            &:hover {
+                color: $white;
+                border-bottom: 3px solid $accent;
+                padding-bottom: 21px;
+                ;
+            }
+        }
+    }
+}
+
+nav .toggle, #drop {
+    display: none;
+}
