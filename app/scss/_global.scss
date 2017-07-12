@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+@import "color";
+
+.container {
+    h1 {
+        font-family: "Roboto";
+        font-weight: 100;
+        font-size: 9rem;
+        color: $white;
+    }
+    h2 {
+        font-family: "Roboto";
+        font-weight: 100;
+        font-size: 3rem;
+        color: $white;
+    }
+    h3 {
+        font-family: "Roboto";
+        font-size: 2rem !important;
+        font-weight: 100;
+        margin-bottom: 1em;
+    }
+    h4 {
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 3rem;
+    }
+    h5 {
+        text-align: center;
+        line-height: 4rem;
+        font-weight: 300;
+    }
+    p {
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+    }
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}

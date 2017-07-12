@@ -1,0 +1,24 @@
+@import "color";
+@import "global";
+
+header {
+    position: relative;
+    width: 100vw;
+    height: 800px;
+    background-color: grey;
+    background-image: url(../img/annie-spratt-277548.jpg);
+    background-size: cover;
+    display: table-cell;
+    vertical-align: middle;
+    
+    #header-text {
+    display: inline-block;
+    
+    }
+    
+     h1 #surname {
+        color: $accent;
+        font-weight: 500;
+    }
+} 
+

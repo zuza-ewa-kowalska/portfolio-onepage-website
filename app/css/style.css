@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box; }
+
+.container h1 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 9rem;
+  color: #ffffff; }
+
+.container h2 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 3rem;
+  color: #ffffff; }
+
+.container h3 {
+  font-family: "Roboto";
+  font-size: 2rem !important;
+  font-weight: 100;
+  margin-bottom: 1em; }
+
+.container h4 {
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 3rem; }
+
+.container h5 {
+  text-align: center;
+  line-height: 4rem;
+  font-weight: 300; }
+
+.container p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100; }
+
+.container a {
+  text-decoration: none;
+  color: #ffffff; }
+
+* {
+  box-sizing: border-box; }
+
+.container h1 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 9rem;
+  color: #ffffff; }
+
+.container h2 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 3rem;
+  color: #ffffff; }
+
+.container h3 {
+  font-family: "Roboto";
+  font-size: 2rem !important;
+  font-weight: 100;
+  margin-bottom: 1em; }
+
+.container h4 {
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 3rem; }
+
+.container h5 {
+  text-align: center;
+  line-height: 4rem;
+  font-weight: 300; }
+
+.container p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100; }
+
+.container a {
+  text-decoration: none;
+  color: #ffffff; }
+
+header {
+  position: relative;
+  width: 100vw;
+  height: 800px;
+  background-color: grey;
+  background-image: url(../img/annie-spratt-277548.jpg);
+  background-size: cover;
+  display: table-cell;
+  vertical-align: middle; }
+  header #header-text {
+    display: inline-block; }
+  header h1 #surname {
+    color: #b31bbf;
+    font-weight: 500; }
