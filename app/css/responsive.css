@@ -36,5 +36,11 @@
         #skills .center-block {
             margin-bottom: 3em;
         }
+        
+        #contact .contact-offset {
+            margin-left: 2em;
+        }
+        
+        
     }
     @media all and (max-width: 480px) {}

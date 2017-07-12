@@ -1,6 +1,5 @@
 @import "color";
 @import "global";
-
 header {
     position: relative;
     width: 100vw;
@@ -11,15 +10,13 @@ header {
     background-position: center;
     display: table-cell;
     vertical-align: middle;
-    
     #header-text {
-    display: inline-block;
-    
+        display: inline-block;
     }
-    
-     h1 #surname {
-        color: $accent;
-        font-weight: 500;
+    h1 {
+        #surname {
+            color: $accent;
+            font-weight: 500;
+        }
     }
-} 
-
+}

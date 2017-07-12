@@ -3,30 +3,26 @@
 
 .portfolio-item {
     padding: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
 }
 
 #portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg);
-    background-position: center;
-    height: 350px;
 }
 
 #portfolio-item-2 {
     background-image: url(../img/portfolio2.jpg);
-    background-position: center;
-    height: 350px;
 }
 
 #portfolio-item-3 {
     background-image: url(../img/portfolio3.jpg);
-    background-position: center;
-    height: 350px;
 }
 
 #portfolio-item-4 {
     background-image: url(../img/portfolio4.jpg);
-    background-position: center;
-    height: 350px;
 }
 
 .portfolio-item-hover {
