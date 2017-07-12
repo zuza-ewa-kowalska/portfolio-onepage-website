@@ -497,10 +497,11 @@ section {
 #contact {
   padding: 3em 1em 3em 0;
   background: linear-gradient(to bottom, #155970 0%, #013b50 100%);
-  height: auto; }
+  height: auto;
+  margin-bottom: 0px; }
   #contact h3 {
     color: #ffffff; }
-  #contact a {
+  #contact adress > a {
     color: #1ab1c1; }
 
 form input,
@@ -601,3 +602,8 @@ form .button {
 
 section {
   margin: 2em 0 2em 0; }
+
+footer {
+  background-color: #042633;
+  color: #ffffff;
+  padding: 0.8em; }
