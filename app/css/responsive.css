@@ -1,4 +1,4 @@
-@media all and (max-width: 1200px) {}
+    @media all and (max-width: 1200px) {}
 
 @media all and (max-width: 768px) {
     nav .toggle {
@@ -19,8 +19,22 @@
     nav>ul>li {
         display: block;
         width: 100%;
-        padding: 20px;
+        padding: 1em;
         text-align: right;
     }
-    @media all and (max-width: 640px) {}
+    @media all and (max-width: 640px) {
+        header #header-text h1 {
+            font-size: 4em;
+        }
+        header #header-text h2 {
+            font-size: 2em;
+        }
+        p {
+            text-align: center;
+            padding: 1em;
+        }
+        #skills .center-block {
+            margin-bottom: 3em;
+        }
+    }
     @media all and (max-width: 480px) {}
