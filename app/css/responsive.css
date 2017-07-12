@@ -41,6 +41,21 @@
             margin-left: 2em;
         }
         
+        #contact .col-sm-1 {
+            display: inline;
+        }
+        
+        #contact .circle {
+            margin: 0 auto;
+            display: inline-block;
+        }
+        
+        #contact form {
+            margin-top: 2em;
+        }
+    
+        
+        
         
     }
     @media all and (max-width: 480px) {}
