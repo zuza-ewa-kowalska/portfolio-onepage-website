@@ -1,4 +1,6 @@
-    @media all and (max-width: 1200px) {}
+    @media all and (max-width: 1200px) {
+        
+}
 
 @media all and (max-width: 768px) {
     nav .toggle {
@@ -22,6 +24,10 @@
         padding: 1em;
         text-align: right;
     }
+    
+ 
+        
+    }
     @media all and (max-width: 640px) {
         header #header-text h1 {
             font-size: 4em;
@@ -41,12 +47,9 @@
             margin-left: 2em;
         }
         
-        #contact .col-sm-1 {
-            display: inline;
-        }
-        
-        #contact .circle {
+        #contact .sm-box {
             margin: 0 auto;
+            margin-bottom: 1em;
             display: inline-block;
         }
         
