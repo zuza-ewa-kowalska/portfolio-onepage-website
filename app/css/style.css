@@ -72,22 +72,19 @@ header {
     color: #1ab1c1;
     font-weight: 500; }
 
-.navbar-default {
+.navbar-inverse {
   background-color: rgba(0, 0, 0, 0.3);
   border: none; }
-  .navbar-default .navbar-nav {
+  .navbar-inverse .navbar-nav {
     float: right; }
-    .navbar-default .navbar-nav li > a {
+    .navbar-inverse .navbar-nav li > a {
       color: #ffffff;
       padding-bottom: 21px;
       border-bottom: 3px solid transparent; }
-      .navbar-default .navbar-nav li > a:hover {
+      .navbar-inverse .navbar-nav li > a:hover {
         color: #ffffff;
         border-bottom: 3px solid #1ab1c1;
         padding-bottom: 21px; }
-
-nav .toggle, #drop {
-  display: none; }
 
 #about {
   background-color: #edf4f9;
